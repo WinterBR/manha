@@ -8,7 +8,7 @@ const sala = [
 ];
 
 function retorna() {
-  const aprov=[];
+  const aprov = [];
   for (let i = 0; i < sala.length; i++) {
       if (sala[i].nota >= 6) {
           aprov.push(sala[i]);
